@@ -292,7 +292,8 @@ width: 403px;
 /* =======================section_5======================= */
 .contact-section {
   padding: 80px 60px;
-   background-color: #4E47FF1A;
+   
+   
 }
 
 .contact-container {
@@ -352,4 +353,47 @@ width: 403px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+
+
+/* =========================footer===================== */
+.footer {
+    font-family: "Raleway", sans-serif;
+    font-size:18px;
+  text-align: center;
+  padding: 60px 20px;
+  color: #0000005A;
+  
+ 
+}
+
+
+
+.navlist {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  font-size: 100px;
+  font-weight: bold;
+  color: #4f46e5; 
+  margin-bottom: 40px;
+}
+
+
+
+.navlist li a {
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+.navlist li a:hover {
+  color: #4f46e5;
 }
