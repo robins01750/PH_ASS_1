@@ -4,12 +4,19 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px ;
+    margin-top:20px ;
+    padding: 0px 200px 0px 200px;
+    
 }
 
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 nav button{
     text-decoration: none;
-    
+
 }
 
 
@@ -17,7 +24,7 @@ nav button{
   background-image: url('../Assets/Hero-bg.png');
   background-size: cover;
   background-position: center;
-  height: 698;
+  height: 698px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -69,6 +76,7 @@ button a{
     
     align-items: center;
     text-align: center;
+    padding-bottom: 90px;
 }
 
 /* ++++++++++++++nav section end+++++++++++++++++++++ */
@@ -100,7 +108,8 @@ width: 403px;
 .sec_1{
     display: flex;
     justify-content: space-between;
-    margin: 100px 150px
+    padding-top: 100px;
+    margin: 0px 150px
     
 }
 
@@ -167,7 +176,7 @@ width: 403px;
 .review-cards {
   display: flex;
   justify-content: center;
-  margin: 100px 150px;
+  margin: 80px 150px;
   gap: 30px;
   
 }
@@ -203,10 +212,10 @@ width: 403px;
 
 .review-text {
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   color: #444;
-  padding: 0px 10px 40px 0px;
-  margin-bottom: 20px;
+  padding: 0px 5px 25px 0px;
+  margin-bottom: 0px;
 }
 
 .reviewer {
@@ -223,7 +232,7 @@ width: 403px;
 
 .reviewer-info .name {
   font-family: "Raleway", sans-serif;  
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   color: gray;
   margin: 0;
@@ -231,7 +240,7 @@ width: 403px;
 
 .reviewer-info .date {
   font-family: "Raleway", sans-serif;  
-  font-size: 18px;
+  font-size: 15px;
   color: lightgray;
   margin: 0;
   
@@ -239,16 +248,17 @@ width: 403px;
 /* ++++++++++++++++++++++++++section_3_end++++++++++++++++++++++++++++++++++ */
 .section_4{
      margin: 100px 150px;
+    
      
      
 }
 .box{
    
-  background: #d3d1d1;
+  background: #ffffff;
   border-radius: 14px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 24px;
-  width:1140 px;
+  max-width:1140 px;
   height: 697px;
   display: flex;
   flex-direction: column;
@@ -303,10 +313,11 @@ width: 403px;
   max-width: 1140px;
   margin: auto;
   gap: 60px;
+  padding-right:100px ;
 }
 
 .contact-left h1 {
-    font-family: "Raleway", sans-serif;  
+  font-family: "Raleway", sans-serif;  
   font-size: 97px;
   font-weight: bold;
   line-height: 1.2;
@@ -325,6 +336,7 @@ width: 403px;
 }
 
 .contact-form label {
+  font-family: "Raleway", sans-serif;  
   font-size: 14px;
   font-weight: 500;
   color: #333;
@@ -346,20 +358,21 @@ width: 403px;
 
 .submit-btn {
   background-color: #4e47ff;
-  color: #fff;
+  color: #ffffff;
   padding: 14px;
   font-size: 14px;
   font-weight: 600;
+  width: 100%;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 
 /* =========================footer===================== */
 .footer {
-    font-family: "Raleway", sans-serif;
-    font-size:18px;
+  font-family: "Raleway", sans-serif;
+  font-size:18px;
   text-align: center;
   padding: 60px 20px;
   color: #0000005A;
@@ -381,7 +394,7 @@ width: 403px;
 
 .logo {
   font-size: 100px;
-  font-weight: bold;
+  font-weight: 900;
   color: #4f46e5; 
   margin-bottom: 40px;
 }
