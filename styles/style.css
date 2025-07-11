@@ -30,9 +30,9 @@ nav button{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-    font-weight: 900;
-    font-size: 34px;
-    color: #4E47FF;
+  font-weight: 900;
+  font-size: 34px;
+  color: #4E47FF;
   
 }
 
@@ -42,7 +42,7 @@ nav button{
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 65px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 
@@ -72,3 +72,82 @@ button a{
 }
 
 /* ++++++++++++++nav section end+++++++++++++++++++++ */
+
+/* ===================section_1===================== */
+.section_title{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.section_paragraph{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #252432;
+    opacity: 50%;
+}
+.action{
+    max-width:517px ;
+    padding-right: 40px;
+}
+.sec_1_image img{
+border-radius:48px;
+height: 328px;
+width: 403px;
+
+}
+.sec_1{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px
+    
+}
+
+/* +++++++++++++++++++++++section_1_end++++++++++++++++ */
+
+/* ===============================section_2=============================== */
+.sec_2{
+    background-color: #4E47FF1A;
+    /* HERE LAST TWO DIGIT OF COLOR CODE IS 1A WHICH IS OPACITY 10% */
+    margin: 100px 150px;
+    border-radius:24px ;
+    
+}
+
+.sec_2_title{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.section_2_title {
+    font-family: "Raleway", sans-serif;;
+    font-size: 38px;
+    font-weight: bold;
+}   
+
+.sec_2_sub{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px 80px 120px;
+    text-align: center;
+}
+
+.au h1,.FS h1, .SR h1{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+    margin-bottom: 10px;
+    
+}
+.au p, .FS p, .SR p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#0000005A;
+    /* HERE LAST TWO DIGIT OF COLOR CODE IS 5A WHICH IS OPACITY 50% */
+    margin-top: 0px;
+}
+
+/* +++++++++++++++++++section_2_end++++++++++++++++++++ */
